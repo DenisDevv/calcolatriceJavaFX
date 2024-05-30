@@ -16,4 +16,25 @@ public class HelloController {
         int risultato = Integer.parseInt(operando1.getText()) + Integer.parseInt(operando2.getText());
         ris.setText("" + risultato);
     }
+    @FXML
+    protected void meno() {
+        int risultato = Integer.parseInt(operando1.getText()) - Integer.parseInt(operando2.getText());
+        ris.setText("" + risultato);
+    }
+    @FXML
+    protected void per() {
+        int risultato = Integer.parseInt(operando1.getText()) * Integer.parseInt(operando2.getText());
+        ris.setText("" + risultato);
+    }
+    @FXML
+    protected void div() {
+        int op1 = Integer.parseInt(operando1.getText());
+        int op2 = Integer.parseInt(operando2.getText());
+        if (op2 == 0) {
+            ris.setText("Non puoi dividere per 0");
+        } else {
+            int risultato = op1/op2;
+            ris.setText("" + risultato);
+        }
+    }
 }
