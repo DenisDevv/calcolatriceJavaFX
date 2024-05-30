@@ -14,10 +14,10 @@
    <TextField fx:id="operando2" layoutX="30.0" layoutY="98.0" />
    <ButtonBar prefHeight="40.0" prefWidth="200.0">
      <buttons>
-        <Button fx:id="piu" onAction="#operazione" text="+" />
-         <Button fx:id="meno" onAction="#operazione" text="-" />
-         <Button fx:id="diviso" onAction="#operazione" text="/" />
-         <Button fx:id="per" onAction="#operazione" text="*" />
+        <Button fx:id="piu" onAction="#piu" text="+" />
+         <Button fx:id="meno" text="-" />
+         <Button fx:id="diviso" text="/" />
+         <Button fx:id="per" text="*" />
      </buttons>
    </ButtonBar>
    <Label text="Risultato" />
