@@ -28,12 +28,12 @@ public class HelloController {
     }
     @FXML
     protected void div() {
-        int op1 = Integer.parseInt(operando1.getText());
-        int op2 = Integer.parseInt(operando2.getText());
+        float op1 = Integer.parseInt(operando1.getText());
+        float op2 = Integer.parseInt(operando2.getText());
         if (op2 == 0) {
             ris.setText("Non puoi dividere per 0");
         } else {
-            int risultato = op1/op2;
+            float risultato = op1/op2;
             ris.setText("" + risultato);
         }
     }
