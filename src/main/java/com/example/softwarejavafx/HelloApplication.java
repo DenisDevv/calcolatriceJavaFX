@@ -14,6 +14,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 390, 340);
         stage.setTitle("Calcolatrice");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 

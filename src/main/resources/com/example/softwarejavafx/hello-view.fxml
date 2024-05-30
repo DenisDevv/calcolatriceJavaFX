@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
@@ -9,41 +10,53 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-    <Label text="Operando 1" textAlignment="CENTER">
+    <Label text="Operando 1" textAlignment="CENTER" textFill="#181818">
         <font>
             <Font name="Arial Bold" size="15.0" />
         </font></Label>
-    <TextField fx:id="operando1" />
-    <Label layoutX="125.0" layoutY="61.0" text="Operando 2" textAlignment="CENTER">
+    <TextField fx:id="operando1" alignment="CENTER" style="-fx-background-color: #fce5cd;">
+      <font>
+         <Font name="Arial" size="18.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+    <Label layoutX="125.0" layoutY="61.0" text="Operando 2" textAlignment="CENTER" textFill="#181818">
         <font>
             <Font name="Arial Bold" size="15.0" />
         </font></Label>
-    <TextField fx:id="operando2" layoutX="30.0" layoutY="98.0" />
+    <TextField fx:id="operando2" alignment="CENTER" layoutX="30.0" layoutY="98.0" style="-fx-background-color: #fce5cd;">
+      <font>
+         <Font name="Arial" size="18.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
     <ButtonBar prefHeight="40.0" prefWidth="200.0">
         <buttons>
             <Button onAction="#piu" style="-fx-background-color: #b45f06;" text="+" textAlignment="CENTER" textFill="WHITE">
                 <font>
                     <Font name="Arial Bold" size="15.0" />
                 </font></Button>
-            <Button  onAction="#meno" style="-fx-background-color: #b45f06;" text="-" textAlignment="CENTER" textFill="WHITE">
+            <Button onAction="#meno" style="-fx-background-color: #b45f06;" text="-" textAlignment="CENTER" textFill="WHITE">
                 <font>
                     <Font name="Arial Bold" size="15.0" />
                 </font></Button>
-            <Button  onAction="#div" style="-fx-background-color: #b45f06;" text="/" textAlignment="CENTER" textFill="WHITE">
+            <Button onAction="#div" style="-fx-background-color: #b45f06;" text="/" textAlignment="CENTER" textFill="WHITE">
                 <font>
                     <Font name="Arial Bold" size="15.0" />
                 </font></Button>
-            <Button  onAction="#per" style="-fx-background-color: #b45f06;" text="*" textAlignment="CENTER" textFill="WHITE">
+            <Button onAction="#per" style="-fx-background-color: #b45f06;" text="*" textAlignment="CENTER" textFill="WHITE">
                 <font>
                     <Font name="Arial Bold" size="15.0" />
                 </font></Button>
         </buttons>
     </ButtonBar>
-    <Label text="Risultato" textAlignment="CENTER">
+    <Label text="Risultato" textAlignment="CENTER" textFill="#181818">
         <font>
             <Font name="Arial Bold" size="15.0" />
         </font></Label>
-    <Label fx:id="ris" text="0" textAlignment="CENTER">
+    <Label fx:id="ris" alignment="CENTER" text="0" textAlignment="CENTER" textFill="#181818">
         <font>
             <Font name="Arial Bold" size="15.0" />
         </font></Label>
