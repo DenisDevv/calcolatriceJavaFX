@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="246.0" prefWidth="293.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.softwarejavafx.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <Label text="Operando 1" />
+   <TextField fx:id="testoUno" />
+   <Label layoutX="125.0" layoutY="61.0" text="Operando 2" />
+   <TextField fx:id="testoUno1" layoutX="30.0" layoutY="98.0" />
+   <ButtonBar prefHeight="40.0" prefWidth="200.0">
+     <buttons>
+        <Button fx:id="TEST" onAction="#onButton" text="+" />
+         <Button fx:id="TEST1" onAction="#onButton" text="-" />
+         <Button fx:id="TEST11" onAction="#onButton" text="/" />
+         <Button fx:id="TEST111" onAction="#onButton" text="*" />
+     </buttons>
+   </ButtonBar>
+
+  <Label fx:id="welcomeText" />
+</VBox>
