@@ -22,6 +22,4 @@
    </ButtonBar>
    <Label text="Risultato" />
    <Label fx:id="ris" text="0" />
-
-  <Label fx:id="welcomeText" />
 </VBox>
