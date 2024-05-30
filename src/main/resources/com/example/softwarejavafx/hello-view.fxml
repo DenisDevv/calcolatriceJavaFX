@@ -21,19 +21,19 @@
     <TextField fx:id="operando2" layoutX="30.0" layoutY="98.0" />
     <ButtonBar prefHeight="40.0" prefWidth="200.0">
         <buttons>
-            <Button fx:id="piu" onAction="#piu" style="-fx-background-color: #b45f06;" text="+" textAlignment="CENTER" textFill="WHITE">
+            <Button onAction="#piu" style="-fx-background-color: #b45f06;" text="+" textAlignment="CENTER" textFill="WHITE">
                 <font>
                     <Font name="Arial Bold" size="15.0" />
                 </font></Button>
-            <Button fx:id="meno" onAction="#meno" style="-fx-background-color: #b45f06;" text="-" textAlignment="CENTER" textFill="WHITE">
+            <Button  onAction="#meno" style="-fx-background-color: #b45f06;" text="-" textAlignment="CENTER" textFill="WHITE">
                 <font>
                     <Font name="Arial Bold" size="15.0" />
                 </font></Button>
-            <Button fx:id="diviso" onAction="#div" style="-fx-background-color: #b45f06;" text="/" textAlignment="CENTER" textFill="WHITE">
+            <Button  onAction="#div" style="-fx-background-color: #b45f06;" text="/" textAlignment="CENTER" textFill="WHITE">
                 <font>
                     <Font name="Arial Bold" size="15.0" />
                 </font></Button>
-            <Button fx:id="per" onAction="#per" style="-fx-background-color: #b45f06;" text="*" textAlignment="CENTER" textFill="WHITE">
+            <Button  onAction="#per" style="-fx-background-color: #b45f06;" text="*" textAlignment="CENTER" textFill="WHITE">
                 <font>
                     <Font name="Arial Bold" size="15.0" />
                 </font></Button>
