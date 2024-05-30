@@ -13,9 +13,7 @@ public class HelloController {
 
     @FXML
     protected void piu() {
-        String operatore1 = operando1.getText();
-        String operatore2 = operando2.getText();
-        int risultato = Integer.parseInt(operatore1 + operatore2);
+        int risultato = Integer.parseInt(operando1.getText()) + Integer.parseInt(operando2.getText());
         ris.setText("" + risultato);
     }
 }
